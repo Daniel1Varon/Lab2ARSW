@@ -16,7 +16,6 @@ public class Main {
         
         for (int i=0; i<numeroHilos;i++) {
             PrimeFinderThread pft = new PrimeFinderThread(inicio, fin);
-            System.out.println(inicio+" aqui vamos "+fin);
             hilos.add(pft);
             inicio=fin+1;
             if(fin<cotaMayor-cota && cotaMayor-cota<fin+cota) fin=cotaMayor;
