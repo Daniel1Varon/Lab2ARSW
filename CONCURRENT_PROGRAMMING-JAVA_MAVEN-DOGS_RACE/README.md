@@ -15,15 +15,16 @@ Creación, puesta en marcha y coordinación de hilos.
 
 1. Revise el programa “primos concurrentes” (en la carpeta parte1), dispuesto en el paquete edu.eci.arsw.primefinder. Este es un programa que calcula los números primos entre dos intervalos, distribuyendo la búsqueda de los mismos entre hilos independientes. Por ahora, tiene un único hilo de ejecución que busca los primos entre 0 y 30.000.000. Ejecútelo, abra el administrador de procesos del sistema operativo, y verifique cuantos núcleos son usados por el mismo.
 
-RTA: Estaba usando todos los nucleos disponibles (4).
+
+<img src="https://github.com/Daniel1Varon/Lab2ARSW/blob/master/CONCURRENT_PROGRAMMING-JAVA_MAVEN-DOGS_RACE/img/media/1hilo.jpg" width="1000" height="1000">
 
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
-RTA: Estaba usando todos los nucleos disponibles (3).
+<img src="https://github.com/Daniel1Varon/Lab2ARSW/blob/master/CONCURRENT_PROGRAMMING-JAVA_MAVEN-DOGS_RACE/img/media/3hilo.jpg" width="1000" height="1000">
 
 3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
-
+<img src="https://github.com/Daniel1Varon/Lab2ARSW/blob/master/CONCURRENT_PROGRAMMING-JAVA_MAVEN-DOGS_RACE/img/media/numeroCPU.jpg" width="1000" height="1000">
 
 ### Parte II 
 
